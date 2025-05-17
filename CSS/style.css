@@ -292,6 +292,59 @@ body {
   text-align: left;
 }
 
+.featured {
+  max-width: 1200px;
+  padding: 74px 0;
+  margin: 0 auto;
+}
+
+.count{
+  font-size: 32px;
+  font-weight: 600;
+  color: #000000;
+}
+.count-text{
+  font-size: 19px;
+  font-weight: 400;
+  color: #1D2939;
+}
+
+.line-gradient {
+  position: static;
+  width: 130px;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    #000000 0%,
+    #000000 100%,
+    #666666 0%
+  );
+  transform: rotate(90deg);
+}
+
+#marquee-container {
+  width: 800px;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  background-color: white;
+  height: 55px;
+  line-height: 40px;
+}
+
+#marquee-logo {
+  position: absolute;
+  left: 100%;
+  white-space: nowrap;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+#marquee-logo img{
+  margin-left: 35px;
+}
+
+
 /* Responsive */
 @media (min-width: 1024px) {
   .menu-toggle {
