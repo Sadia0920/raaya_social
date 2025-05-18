@@ -614,6 +614,18 @@ border-radius: 16px;
     height: 20px;
 }
 
+.review-box{
+box-sizing: border-box;
+border: 1px solid rgba(0, 159, 226, 0.33);
+border-radius: 14px;
+background: rgb(255, 255, 255);
+padding: 20px;
+}
+
+.client-name img{
+   width: 40px;
+    height: 40px;
+}
 /* Responsive */
 @media (min-width: 1024px) {
   .menu-toggle {
