@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RAAYA_SOCIAL</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/smallLaptopresponsive.css" />
+    <link rel="stylesheet" href="CSS/mediumDeviceResponsive.css" />
+    <link rel="stylesheet" href="CSS/tabletResponsive.css" />
+    <link rel="stylesheet" href="CSS/mobileResponsive.css" />
     <script src="https://kit.fontawesome.com/764a899052.js" crossorigin="anonymous"></script>
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -53,9 +57,12 @@
   <div class="hero-container">
     <!-- text Side -->
     <div class="hero-text">
-      <a class="hero-subtitle-btn" href="#">
+      <div>
+ <a class="hero-subtitle-btn" href="#">
         <p><i class="fa-solid fa-star"></i> All talents across the world</p>
       </a>
+      </div>
+     
       <h2 class="hero-title">Create <span class="gradient-text">Short-From </span><span class="gradient-text">Video Content</span> starting at <span style="color: #D32E23;">$99</span>/month.</h2>
       <p class="hero-description">
        Tailored social media content of the highest quality, crafted for your business. Shared on your channels only upon your approval.
@@ -78,6 +85,7 @@
   </section>
 </header>
 <main>
+  <!-- social -->
    <section class="social-container">
    <div class="social-box">
    <div>
@@ -149,27 +157,27 @@
    <div class="service-line"></div>
   <!-- right side -->
   <div>
-<div class="options flex" style="gap: 100px;">
-  <div>
+<div class="options flex services-gap" style="gap: 100px;">
+  <div class="service-content-center">
     <P class="services-subheading" style="margin-bottom: 15px;">5 Short form video - $99/ 1 week</P>
   <p>Tailored graphic and video content packages.</p>
   </div>
-   <img src="Images/gray-circle.png" alt="Purple Tick">
+   <img src="Images/gray-circle.png" alt="gray Tick" class="tick">
 </div>
 <div class="options-purple flex" style="gap: 100px; margin: 20px 0;">
-  <div>
+  <div class="service-content-center">
      <div class="popular-btn">Most popular</div>
     <P class="services-subheading" style="margin-bottom: 15px;">1 Short form video - $99/ 1 week</P>
   <p>Tailored graphic and video content packages.</p>
   </div>
-   <img src="Images/purple-tick.png" alt="Purple Tick">
+   <img src="Images/purple-tick.png" alt="Purple Tick" class="tick">
 </div>
 <div class="options flex" style="gap: 100px;">
-  <div>
+  <div class="service-content-center">
     <P class="services-subheading" style="margin-bottom: 15px;">5 Short form video - $99/ 1 week</P>
   <p>Tailored graphic and video content packages.</p>
   </div>
-   <img src="Images/gray-circle.png" alt="Purple Tick">
+   <img src="Images/gray-circle.png" alt="gray Tick" class="tick">
 </div>
   </div>
   </div>
@@ -189,7 +197,8 @@
       <img src="Images/purple-tick.png" alt="Green Tick">
       <p class="services-subheading">We take raw video and/or premiumstock footage</p>
      </div>
-        <img src="Images/engaging-card-img.png" alt="engaging-card-img">
+     <div class="engaging-img"> <img src="Images/engaging-card-img.png" alt="engaging-card-img"></div>
+       
         <p class="card-text">Share your long-form videos or raw clips with us. Our team will help you choose the best hooks & content from your video. Our team will help you choose the best hooks & content from your video.</p>
       </div>
       <div class="card">
@@ -197,7 +206,7 @@
       <img src="Images/purple-tick.png" alt="Green Tick">
       <p class="services-subheading">We structure it for views and watch-time</p>
      </div>
-        <img src="Images/engaging-card-img.png" alt="engaging-card-img">
+       <div class="engaging-img"> <img src="Images/engaging-card-img.png" alt="engaging-card-img"></div>
         <p class="card-text">Share your long-form videos or raw clips with us. Our team will help you choose the best hooks & content from your video. Our team will help you choose the best hooks & content from your video.</p>
       </div>
       <div class="card">
@@ -205,7 +214,7 @@
       <img src="Images/purple-tick.png" alt="Green Tick">
       <p class="services-subheading">We create your unique style and theme</p>
      </div>
-        <img src="Images/engaging-card-img.png" alt="engaging-card-img">
+        <div class="engaging-img"> <img src="Images/engaging-card-img.png" alt="engaging-card-img"></div>
         <p class="card-text">Share your long-form videos or raw clips with us. Our team will help you choose the best hooks & content from your video. Our team will help you choose the best hooks & content from your video.</p>
       </div>
       </div>
@@ -246,7 +255,7 @@
 
    <!-- videos for business -->
    <section class="social-container" style="margin-top: 90px;">
-    <h2 class="services-title" style="text-align: left;">Video 
+    <h2 class="services-title business-center-text" >Video 
       <img src="Images/title-img.png" alt="" srcset=""> For
       <span style="color: #A554E6;">business</span></h2>
 
@@ -262,7 +271,7 @@
 
     <!-- videos for brands -->
    <section class="social-container" style="margin-top: 90px;">
-    <h2 class="services-title" style="text-align: left;">Video 
+    <h2 class="services-title business-center-text">Video 
       <img src="Images/title-img.png" alt="" srcset=""> For
       <span style="color: #A554E6;">personal brands</span></h2>
 
@@ -277,14 +286,15 @@
     </section>
 
     <!-- why short form video is popular -->
-     <section class="nav-container "  style="margin-top: 50px; padding: 40px 0;">
-    <div class="social-container" style="display: grid; grid-template-columns: 1fr 1fr; align-items: center;" >
-      <div>
+     <section class="nav-container">
+         <div>
+    <div class="social-container short-video">
+      <div class="short-video-img">
         <img src="Images/short-form-img.png" alt="Image" >
       </div>
-      <div style="margin-left: -70px;">
-        <h2 class="services-title" style="text-align: left; font-weight: 600; margin-bottom: 20px;">Why is short-form video so popular?</h2>
-        <p class="card-text">Video content in the short form is not new. In actuality, the 2012-released short-form video app Vine was a pioneer of the genre.
+      <div class="popular-video-text">
+        <h2 class="services-title short-video-title">Why is short-form video so popular?</h2>
+        <p class="card-text short-video-text">Video content in the short form is not new. In actuality, the 2012-released short-form video app Vine was a pioneer of the genre.
         <br>
         <br>
         But as tech giants like Instagram, TikTok, and YouTube launched short-form video features of their own, what had initially been a niche platform grew into something much larger.</p>
@@ -293,6 +303,7 @@
     </div>
       </div>
     </div>
+     
   </section>
 
   <!-- client story section-->
@@ -346,16 +357,6 @@
                 </div>
           </div>
 
-          <!-- <div class="same-info img-5">
-                <img src="Images/client5.png" alt="">
-                <div class="overlay-icon">
-                  <img src="Images/play-button.png" alt="play-button" >
-                </div>
-                <div class="overlay-text flex">
-                  <img src="Images/Ellipse1.png" alt="Ellipse1">
-                  <div>Safur Hadi<br><span class="small">Influencer</span></div>
-                </div>
-          </div> -->
         </div>
            
   </section>
@@ -364,7 +365,7 @@
    <section class="social-container">
     <div class="flex">
       <div class="review-box">
-      <div class="flex" style="gap: 180px;">
+      <div class="flex reviewer-identity">
           <div class="client-name flex">
               <img src="Images/Ellipse2.png" alt="Ellipse1">
               <div style="font-size: 18px; font-weight: 600;">Andrei Kasyanau<br><span class="card-text">CEO at Glorium Technologies</span></div>
@@ -374,7 +375,7 @@
           <p>(4.8)</p>
         </div>
       </div>
-      <div style="margin-top: 20px;">
+      <div class="review-top-margin">
         <img src="Images/comma2.png" alt="">
         <p class="card-text">Our smart developers build innovative, efficient, and high- performance solutions. efficient, and high- performance solutions. efficient, and high- performance solutions.</p>
         <div class="flex" style="justify-content: flex-end;"><img src="Images/comma.png" alt=""></div>
@@ -382,7 +383,7 @@
       </div>
 
      <div class="review-box">
-      <div class="flex" style="gap: 190px;">
+      <div class="flex reviewer-identity">
           <div class="client-name flex">
               <img src="Images/Ellipse2.png" alt="Ellipse1">
               <div style="font-size: 18px; font-weight: 600;">Andrei Kasyanau<br><span class="card-text">CEO at Glorium Technologies</span></div>
@@ -392,7 +393,7 @@
           <p>(4.8)</p>
         </div>
       </div>
-      <div style="margin-top: 20px;">
+      <div class="review-top-margin">
         <img src="Images/comma2.png" alt="">
         <p class="card-text">Our smart developers build innovative, efficient, and high- performance solutions. efficient, and high- performance solutions. efficient, and high- performance solutions.</p>
         <div class="flex" style="justify-content: flex-end;"><img src="Images/comma.png" alt=""></div>
@@ -406,12 +407,12 @@
               <img src="Images/Ellipse2.png" alt="Ellipse1">
               <div style="font-size: 18px; font-weight: 600;">Andrei Kasyanau<br><span class="card-text">CEO at Glorium Technologies</span></div>
           </div>
-        <div class="flex" style="margin-top: 5px; margin-left: 46px;">
+        <div class="flex star-rating">
           <img src="Images/star.png" alt="star icon">
           <p>(4.8)</p>
         </div>
       </div>
-      <div style="margin-top: 20px;">
+      <div class="review-top-margin">
         <img src="Images/comma2.png" alt="">
         <p class="card-text">Our smart developers build innovative, efficient, and high- performance solutions. efficient, and high- performance solutions.</p>
         <div class="flex" style="justify-content: flex-end;"><img src="Images/comma.png" alt=""></div>
@@ -424,12 +425,12 @@
               <img src="Images/Ellipse2.png" alt="Ellipse1">
               <div style="font-size: 18px; font-weight: 600;">Andrei Kasyanau<br><span class="card-text">CEO at Glorium Technologies</span></div>
           </div>
-        <div class="flex" style="margin-top: 5px; margin-left: 46px;">
+        <div class="flex star-rating">
           <img src="Images/star.png" alt="star icon">
           <p>(4.8)</p>
         </div>
       </div>
-      <div style="margin-top: 20px;">
+      <div class="review-top-margin">
         <img src="Images/comma2.png" alt="">
         <p class="card-text">Our smart developers build innovative, efficient, and high- performance solutions. efficient, and high- performance solutions.</p>
         <div class="flex" style="justify-content: flex-end;"><img src="Images/comma.png" alt=""></div>
@@ -442,12 +443,12 @@
               <img src="Images/Ellipse2.png" alt="Ellipse1">
               <div style="font-size: 18px; font-weight: 600;">Andrei Kasyanau<br><span class="card-text">CEO at Glorium Technologies</span></div>
           </div>
-        <div class="flex" style="margin-top: 5px; margin-left: 46px;">
+        <div class="flex star-rating">
           <img src="Images/star.png" alt="star icon">
           <p>(4.8)</p>
         </div>
       </div>
-      <div style="margin-top: 20px;">
+      <div class="review-top-margin">
         <img src="Images/comma2.png" alt="">
         <p class="card-text">Our smart developers build innovative, efficient, and high- performance solutions. efficient, and high- performance solutions.</p>
         <div class="flex" style="justify-content: flex-end;"><img src="Images/comma.png" alt=""></div>

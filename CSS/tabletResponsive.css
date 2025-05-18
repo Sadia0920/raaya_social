@@ -1,0 +1,49 @@
+@media (max-width: 768px) {
+
+.container {
+  max-width: 768px;
+}
+
+.navbar {
+  max-width: 650px;
+}
+
+.hero-container {
+  width: 650px;
+}
+
+.hero-title {
+  width: 500px;
+
+}
+
+.social-container{
+ max-width: 650px;
+}
+
+.short-video{ 
+  grid-template-columns: 1fr; 
+}
+.popular-video-text{
+  margin-left: 0;
+}
+
+/* company logo - fearured section */
+.featured {
+  max-width: 650px;
+}
+
+/* services section */
+.services-text{
+    width: 500px;
+}
+
+.footer-container {
+ max-width: 650px;
+}
+
+  .footer-line{
+  width: 650px;
+}
+
+}

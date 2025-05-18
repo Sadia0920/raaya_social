@@ -1,0 +1,121 @@
+ @media (max-width: 992px) {
+
+.container {
+  max-width: 992px;
+}
+
+.navbar {
+  max-width: 800px;
+  padding: 8px 0px;
+}
+
+.navbar-center {
+    display: none;
+}
+
+.menu-toggle {
+    display: block;
+}
+
+.logo-section {
+   margin-left: 20px;
+}
+
+.logo-img {
+  width: 89.55px;
+  height: 68px;
+}
+
+.hero-container {
+  width: 800px;
+}
+
+.hero-title {
+  font-size: 30px;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.social-container{
+ max-width: 800px;
+}
+
+/* company logo - fearured section */
+.featured {
+  max-width: 800px;
+  padding: 54px 0;
+}
+
+/* services section */
+.services-title {
+  font-size: 30px;
+}
+
+.services-box-section{
+padding: 20px 10px;
+}
+
+.services-description{
+width: 266px;
+}
+
+.options{
+padding: 10px;
+}
+
+.options-purple{
+padding: 10px 20px;
+}
+
+
+#card-container {
+grid-template-columns: repeat(1, 1fr);
+}
+
+  .slider-card {
+    width: calc(100% / 2 - 20px);
+  }
+
+  .client-img {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+.same-info{
+    width: 300px;
+}
+.client-img img{
+    width: 300px;
+}
+
+.overlay-text{
+    margin-left: 80px;
+}
+
+.overlay-text img{
+   width: 25px;
+    height: 25px;
+}
+
+.overlay-icon{
+    margin-top: -230px;
+    margin-left: 130px;
+}
+
+.overlay-icon img{
+   width: 20px;
+    height: 20px;
+}
+
+.footer-logo-text {
+font-size: 30px;
+}
+  .footer-container {
+     max-width: 800px;
+     grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .footer-line{
+  width: 800px;
+}
+}

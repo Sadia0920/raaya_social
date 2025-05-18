@@ -1,0 +1,167 @@
+@media (max-width: 430px) {
+
+.container {
+  max-width: 430px;
+}
+
+.flex{
+  flex-direction: column;
+}
+
+.navbar {
+  max-width: 400px;
+}
+
+.hero-container {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  width: 350px;
+
+}
+
+.hero-text {
+  width: 350px;
+  text-align: center;
+}
+
+.hero-image-container{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+   gap: 20px;
+}
+
+.logo-img {
+  width: 50px;
+  height: 35px;
+}
+
+.short-video-img img{
+width: 300px;
+}
+
+.review-top-margin{
+  margin-top: 0;
+}
+
+.star-rating{
+   margin-top: 30px; 
+  margin-left: 0px;
+}
+
+.short-video-img {
+width: 100%;
+}
+
+.social-box {
+  width: 200px;
+   height: 180px;
+  padding: 15px 20px;
+  margin-left: 0px;
+}
+
+.social-container{
+ width: 100%;
+}
+
+.social-title {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.social-logo {
+  display: flex;
+flex-wrap: wrap;
+}
+
+/* marquee */
+.count{
+  text-align: center;
+}
+#marquee-container {
+  margin-top: 20px;
+  width:100%;
+}
+
+.line-gradient {
+  display: none;
+}
+
+/* service */
+.services-box {
+grid-template-columns: 1fr;
+}
+
+.services-description{
+  width: 100%;
+text-align: center;
+margin-left: 0px;
+}
+
+.services-text {
+width: 350px;
+margin: 10px auto;
+}
+
+.service-content-center, .services-subheading{
+  text-align: center;
+}
+.popular-btn{
+  margin: 10px auto;
+}
+.services-gap{
+  margin-top: 20px;
+}
+.service-line{
+ display: none;
+}
+.tick{
+  display: none;
+}
+.client-img{
+   grid-template-columns: 1fr;
+}
+/* business */
+.business-center-text{
+  display: block;
+  text-align: center;
+}
+
+/* company logo - fearured section */
+.featured {
+  max-width: 400px;
+}
+
+/* services section */
+.services-text{
+    width: 350px;
+}
+.services-title {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 30px;
+}
+.short-video-text{
+  width: 70%;
+  margin-top: 20px;
+}
+.short-video-img{
+ width: 70%;
+margin: 0 auto;
+}
+.short-video-img img{
+    width: 100%;
+}
+
+.footer-container {
+     grid-template-columns: 1fr;
+ max-width: 400px;
+}
+
+  .footer-line{
+  display: none;
+}
+
+}
