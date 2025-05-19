@@ -1,11 +1,11 @@
- @media (max-width: 992px) {
+ @media (min-width: 769px) and (max-width: 1024px) {
 
 .container {
-  max-width: 992px;
+  max-width: 100%;
 }
 
 .navbar {
-  max-width: 800px;
+  max-width: 80%;
   padding: 8px 0px;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .hero-container {
-  width: 800px;
+  width: 700px;
 }
 
 .hero-title {
@@ -37,24 +37,29 @@
 }
 
 .social-container{
- max-width: 800px;
+ max-width: 700px;
 }
 
 
 /* services section */
 .services-container{
- max-width: 800px
+ max-width: 700px
 }
 
 /* engaging section */
 .engaging-container{
-  max-width: 800px;
+  max-width: 700px;
 }
 
 /* company logo - fearured section */
 .featured {
-  max-width: 800px;
+  max-width: 700px;
   padding: 54px 0;
+}
+
+.hero-image-wrapper{
+  width: 200.13px;
+  height: 300.01px;
 }
 
 /* services section */
@@ -78,7 +83,6 @@ padding: 10px;
 padding: 10px 20px;
 }
 
-
 #card-container {
 grid-template-columns: repeat(1, 1fr);
 }
@@ -86,6 +90,10 @@ grid-template-columns: repeat(1, 1fr);
   .slider-card {
     width: calc(100% / 2 - 20px);
   }
+
+  .services-text{
+    width: 600px;
+}
 
   .client-img {
     grid-template-columns: repeat(2, 1fr);
@@ -123,12 +131,12 @@ font-size: 30px;
 }
 
 .footer-container {
-  max-width: 800px;
+  max-width: 700px;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
 
 .footer-line{
-  width: 800px;
+  width: 700px;
 }
 }

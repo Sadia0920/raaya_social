@@ -1,7 +1,7 @@
-@media (max-width: 430px) {
+@media (min-width: 481px) and (max-width: 600px) {
 
 .container {
-  max-width: 430px;
+  max-width: 100%;
 }
 
 .flex{
@@ -9,7 +9,7 @@
 }
 
 .navbar {
-  max-width: 400px;
+  max-width: 80%;
 }
 
 .hero-container {
@@ -38,6 +38,10 @@
   height: 35px;
 }
 
+#card-container {
+grid-template-columns: repeat(1, 1fr);
+}
+
 .short-video-img img{
 width: 300px;
 }
@@ -53,6 +57,11 @@ width: 300px;
 
 .short-video-img {
 width: 100%;
+}
+
+
+.short-video{ 
+  grid-template-columns: 1fr; 
 }
 
 .social-box {

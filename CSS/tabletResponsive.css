@@ -1,11 +1,11 @@
-@media (max-width: 768px) {
+@media (min-width: 601px) and (max-width: 768px) {
 
 .container {
-  max-width: 768px;
+  max-width: 100%;
 }
 
 .navbar {
-  max-width: 650px;
+  max-width: 80%;
 }
 
 .hero-container {
@@ -15,6 +15,10 @@
 .hero-title {
   width: 500px;
 
+}
+
+.hero-description {
+  max-width: 500px;
 }
 
 .social-container{
@@ -33,6 +37,19 @@
   margin-left: 0;
 }
 
+#card-container {
+grid-template-columns: repeat(1, 1fr);
+}
+
+.service-line{
+ display: none;
+}
+
+/* service */
+.services-box {
+grid-template-columns: 1fr;
+}
+
 /* engaging section */
 .engaging-container{
   max-width: 650px;
@@ -48,12 +65,17 @@
     width: 500px;
 }
 
-.footer-container {
- max-width: 650px;
-}
+  .client-img {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
 .footer-first-colum{
 width: 100%;
+}
+
+.footer-container {
+  max-width: 550px;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .footer-input{

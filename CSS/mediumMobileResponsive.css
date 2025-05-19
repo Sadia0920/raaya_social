@@ -1,4 +1,4 @@
-@media (max-width: 380px) {
+@media (min-width: 381px) and (max-width: 480px){
 
 .container {
   max-width: 100%;
@@ -6,6 +6,64 @@
 
 .flex{
   flex-direction: column;
+}
+
+.social-box {
+  width: 200px;
+   height: 180px;
+  padding: 15px 20px;
+  margin-left: 0px;
+}
+
+.social-container{
+ width: 350px;
+}
+
+.social-title {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.social-logo {
+  display: flex;
+flex-wrap: wrap;
+}
+
+#card-container {
+grid-template-columns: repeat(1, 1fr);
+}
+
+.services-box {
+grid-template-columns: 1fr;
+}
+
+#marquee-container {
+  margin-top: 20px;
+  width:100%;
+}
+
+.line-gradient {
+  display: none;
+}
+.services-description{
+  width: 100%;
+text-align: center;
+margin-left: 0px;
+}
+
+#marquee-container {
+  margin-top: 20px;
+  width:100%;
+}
+
+.short-video{ 
+  grid-template-columns: 1fr; 
+}
+
+.hero-image-container{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+   gap: 20px;
 }
 
 .nav-container{
