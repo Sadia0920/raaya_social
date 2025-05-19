@@ -120,9 +120,16 @@ margin: 10px auto;
 .tick{
   display: none;
 }
+
 .client-img{
    grid-template-columns: 1fr;
 }
+
+.fap-text{
+width: 80%;
+margin: 0 auto;
+}
+
 /* business */
 .business-center-text{
   display: block;
@@ -136,13 +143,35 @@ margin: 10px auto;
 
 /* services section */
 .services-text{
-    width: 350px;
+   display:none;
 }
 .services-title {
   width: 70%;
   margin: 0 auto;
   font-size: 30px;
 }
+
+.services-box-section{
+padding: 30px 10px;
+}
+
+.services-description{
+width: 220px;
+margin: 0 auto;
+}
+
+/* slider */
+
+
+.left {
+  left: 40px;
+}
+
+.right {
+  right: 40px;
+}
+
+/* short video */
 .short-video-text{
   width: 70%;
   margin-top: 20px;
@@ -155,6 +184,8 @@ margin: 0 auto;
     width: 100%;
 }
 
+/* footer */
+
 .footer-container {
      grid-template-columns: 1fr;
  max-width: 350px;
@@ -165,4 +196,21 @@ margin: 0 auto;
   display: none;
 }
 
+.footer-input {
+  width: 70%;
+}
+
+.footer-btn {
+  width: 75%;
+}
+
+.footer-text{
+width: 80%;
+}
+
+.footer-reserved-text{
+font-size: 12px;
+text-align: left;
+padding: 0 30px;
+}
 }

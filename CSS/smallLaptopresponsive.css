@@ -192,7 +192,7 @@ margin: 0 auto;
 }
 
 .client-img{
-    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-columns: repeat(4, 1fr); */
     gap: 10px;
     padding: 10px;
 }
