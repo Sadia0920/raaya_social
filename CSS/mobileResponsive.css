@@ -76,6 +76,17 @@ width: 100%;
 flex-wrap: wrap;
 }
 
+
+/* services section */
+.services-container{
+ max-width: 350px
+}
+
+/* engaging section */
+.engaging-container{
+  max-width: 350px;
+}
+
 /* marquee */
 .count{
   text-align: center;

@@ -96,6 +96,16 @@
   margin-top: 20px;
 }
 
+/* services section */
+.services-container{
+ max-width: 900px
+}
+
+/* engaging section */
+.engaging-container{
+  max-width: 900px;
+}
+
 /* company logo - fearured section */
 .featured {
   max-width: 900px;

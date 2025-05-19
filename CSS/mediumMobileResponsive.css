@@ -1,15 +1,19 @@
 @media (max-width: 380px) {
 
 .container {
-  max-width: 380px;
+  max-width: 100%;
 }
 
 .flex{
   flex-direction: column;
 }
 
+.nav-container{
+    background-color: white;
+    max-width: 100%;
+}
 .navbar {
-  max-width: 280px;
+  width: 80%;
 }
 
 .nav-btn1 {
@@ -49,8 +53,16 @@ width: 250px;
  width: 280px;
 }
 
+/* engaging section */
+.engaging-container{
+  max-width: 280px;
+}
 
-/* service */
+
+/* services section */
+.services-container{
+ max-width: 280px
+}
 
 .services-text {
 display: none;

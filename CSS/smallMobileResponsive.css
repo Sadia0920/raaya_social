@@ -8,8 +8,11 @@
   flex-direction: column;
 }
 
+.nav-container{
+    background-color: transparent;
+}
 .navbar {
-  max-width: 280px;
+  width: 90%;
 }
 
 .nav-btn1 {
@@ -46,11 +49,19 @@ width: 250px;
 }
 
 .social-container{
- width: 280px;
+ width: 200px;
+}
+
+/* engaging section */
+.engaging-container{
+  max-width: 300px;
 }
 
 
-/* service */
+/* services section */
+.services-container{
+ max-width: 300px
+}
 
 .services-text {
 display: none;
@@ -104,6 +115,10 @@ margin: 0 auto;
 }
 .short-video-img img{
     width: 100%;
+}
+
+.client-img{
+    width: 256px;
 }
 
 .client-img img{

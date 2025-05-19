@@ -21,11 +21,21 @@
  max-width: 650px;
 }
 
+/* services section */
+.services-container{
+ max-width: 650px
+}
+
 .short-video{ 
   grid-template-columns: 1fr; 
 }
 .popular-video-text{
   margin-left: 0;
+}
+
+/* engaging section */
+.engaging-container{
+  max-width: 650px;
 }
 
 /* company logo - fearured section */
@@ -42,7 +52,19 @@
  max-width: 650px;
 }
 
-  .footer-line{
+.footer-first-colum{
+width: 100%;
+}
+
+.footer-input{
+  width: 70%;
+}
+
+.footer-btn{
+width: 75%;
+}
+
+.footer-line{
   width: 650px;
 }
 

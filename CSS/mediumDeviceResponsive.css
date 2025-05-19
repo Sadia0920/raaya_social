@@ -40,6 +40,17 @@
  max-width: 800px;
 }
 
+
+/* services section */
+.services-container{
+ max-width: 800px
+}
+
+/* engaging section */
+.engaging-container{
+  max-width: 800px;
+}
+
 /* company logo - fearured section */
 .featured {
   max-width: 800px;
@@ -106,16 +117,18 @@ grid-template-columns: repeat(1, 1fr);
     height: 20px;
 }
 
+/* footer */
 .footer-logo-text {
 font-size: 30px;
 }
-  .footer-container {
-     max-width: 800px;
-     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
 
-  .footer-line{
+.footer-container {
+  max-width: 800px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.footer-line{
   width: 800px;
 }
 }
